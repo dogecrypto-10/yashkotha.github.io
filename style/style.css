@@ -1,0 +1,66 @@
+body{
+    font-family: sans-serif;
+    background-image: url('../img/1583.jpg');
+    background-attachment: fixed;
+    background-repeat:inherit;
+    }
+
+table, th,td{
+    border:1px solid black;
+    border-spacing: 3px;
+    padding: 3px;
+    text-align: left;
+}
+td{
+    column-width: 100px;
+}
+tr:nth-child(even){
+    background-color:aliceblue;
+}
+tr:nth-child(odd){
+    background-color:cornflowerblue;
+}
+.day{
+    background-color: aquamarine;
+}
+
+.ethics {
+    background-color: aliceblue;
+}
+.SLSS {
+    background-color: rgb(145, 243, 145);
+}
+.sft{
+    background-color:goldenrod;
+}
+.web{
+    background-color: darkgrey;
+}
+.net{
+    background-color: coral;
+}
+
+.flow{
+   display: block;
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-top: 10%;
+   margin-bottom: 10%;
+   background-color:beige;
+}
+
+img {
+    border: 1px solid rgb(73, 73, 44);
+    border-radius: 8px;
+    padding: 5px;
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    position: relative;  
+    min-width: fit-content;
+    min-height: fit-content;
+    
+    box-shadow:1px 1px 2px black, 0 0 25px rgba(255, 255, 0, 0.658), 0 0 5px rgba(139, 130, 0, 0.925); ;
+    
+    background-size: 5%;
+}
